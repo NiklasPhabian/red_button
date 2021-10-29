@@ -1,7 +1,7 @@
 # Sources
-https://github.com/fidian/bonkers
-https://github.com/Simon-Tang/py_dream_cheeky/blob/master/py_dream_cheeky/button.py
-https://github.com/miguelmota/big-red-button
+- https://github.com/fidian/bonkers
+- https://github.com/Simon-Tang/py_dream_cheeky/blob/master/py_dream_cheeky/button.py
+- https://github.com/miguelmota/big-red-button
 
 # Install
 
@@ -47,7 +47,7 @@ Or be lazy:
 sudo sh -c "echo 'SUBSYSTEM==\"usb\", ATTRS{idVendor}==\"1d34\", ATTRS{idProduct}==\"000d\", MODE=\"0666\", GROUP=\"plugdev\"' >> /etc/udev/rules.d/99-dream_cheeky.rules"
 ```
 
-*THEN REPLUG THE DEVICE!!!*
+**THEN REPLUG THE DEVICE!!!**
 
 
 ## Change EVDEV permissions to send keystrokes
